@@ -1,0 +1,15 @@
+namespace "cuckoo"
+
+interface {
+  check_word_exists(name: string): string
+}
+
+
+type Input {
+    x: string,
+    y: string,
+}
+
+interface {
+handle_input(inp:Input):string
+}

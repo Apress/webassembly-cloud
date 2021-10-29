@@ -1,0 +1,4 @@
+namespace "cuckoo"
+interface {
+  check_word_exists(name: string): string
+}
